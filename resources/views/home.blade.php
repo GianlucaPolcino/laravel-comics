@@ -11,5 +11,6 @@
 <body>
     @include('partials.header')
     @include('partials/jumbotron')
+    @include('partials/main')
 </body>
 </html>
