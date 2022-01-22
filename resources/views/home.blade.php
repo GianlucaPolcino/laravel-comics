@@ -12,5 +12,7 @@
     @include('partials.header')
     @include('partials/jumbotron')
     @include('partials/main')
+    @include('partials/section')
+    @include('partials/footer')
 </body>
 </html>

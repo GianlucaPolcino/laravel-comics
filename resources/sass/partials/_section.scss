@@ -1,0 +1,18 @@
+.background{
+    background-color: $blue-dc;
+    height: 160px;
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        color: white;
+        font-size: 14px;
+        .img-section{
+            width: 40px;
+            height: 100%;
+            margin:0 20px;
+        }
+        
+    }
+}

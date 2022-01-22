@@ -81,3 +81,95 @@ a {
   color: white;
 }
 
+.background {
+  background-color: #3957fd;
+  height: 160px;
+}
+.background .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: white;
+  font-size: 14px;
+}
+.background .flex .img-section {
+  width: 40px;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.upper {
+  background-image: url(/images/footer-bg.jpg?30a5c2238c63921788be216d1794abf7);
+}
+.upper .list {
+  display: flex;
+  background-image: url(/images/dc-logo-bg.png?571b04c07ce56ce40d7896d4da7b2bc0);
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.upper .list .wrapper {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.upper .list .wrapper .list-links {
+  padding-top: 30px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.upper .list .wrapper .list-links h2 {
+  color: white;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.upper .list .wrapper .list-links ul {
+  list-style: none;
+}
+.upper .list .wrapper .list-links ul li a {
+  text-decoration: none;
+  color: lightgray;
+}
+.upper .list .wrapper .list-links ul li a:hover {
+  color: #3957fd;
+}
+.upper .list .wrapper .list-links .last-list {
+  padding-top: 20px;
+}
+
+.bottom {
+  height: 120px;
+  background-color: #333333;
+}
+.bottom .flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom .flex button {
+  background-color: #333333;
+  padding: 16px;
+  border: 3px solid #3957fd;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.bottom .flex button:hover {
+  background-color: #3957fd;
+}
+.bottom .flex .flex-2 {
+  display: flex;
+  align-items: center;
+}
+.bottom .flex .flex-2 h3 {
+  display: inline-block;
+  margin-right: 20px;
+  color: #3957fd;
+}
+.bottom .flex .flex-2 img {
+  width: 64px;
+  padding: 0 8px;
+}
+

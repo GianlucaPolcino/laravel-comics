@@ -1,7 +1,7 @@
 <div class="header">
     <div class="container">
         <a href="">
-          <img src="../../../public/images/dc-logo.png" alt="">
+          <img src="{{asset('images/dc-logo.png')}}" alt="">
         </a>
         <ul class="nav">
             @foreach (config('links') as $link)
